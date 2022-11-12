@@ -1,0 +1,18 @@
+﻿
+<Window x:Class="Nummbersystem_transformator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Nummbersystem_transformator"
+        mc:Ignorable="d"
+        Title="Number-Umwandler" Height="255" Width="400" ResizeMode="NoResize" KeyDown="Window_KeyDown">
+    <Grid>
+        <Grid>
+            <TextBox x:Name="inputTXT" Margin="0, -120, 0, 0" Text=""/>
+            <TextBox x:Name="inNUMSYS" Margin="-30, 0, 0, 0" Height="25" Width="25" FontSize="15"/>
+            <TextBox x:Name="outNUMSYS" Margin="30, 0, 0, 0" Height="25" Width="25" FontSize="15"/>
+            <TextBox x:Name="outputTXT" Margin="0, 120, 0, 0" Text=""/>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nummbersystem-transformator", "Nummbersystem-transformator\Nummbersystem-transformator.csproj", "{240E10B3-0AC0-44F4-B37D-02F6B030390A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{240E10B3-0AC0-44F4-B37D-02F6B030390A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{240E10B3-0AC0-44F4-B37D-02F6B030390A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{240E10B3-0AC0-44F4-B37D-02F6B030390A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{240E10B3-0AC0-44F4-B37D-02F6B030390A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {664032EC-9A7C-4CD6-91DD-6B15CE97A0D4}
+	EndGlobalSection
+EndGlobal
