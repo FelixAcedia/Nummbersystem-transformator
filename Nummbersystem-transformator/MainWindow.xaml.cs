@@ -37,17 +37,24 @@ namespace Nummbersystem_transformator
 
         public string multiply(char[] input)
         {
-            long sum = 0;
-            long multi = 1;
-            long multifac = long.Parse(inNUMSYS.Text);
-            foreach (char c in input)
+            try
             {
-                if ((long)c - 48 >= multifac)
-                    return String.Empty;
-                sum += ((long)c - 48)*multi;
-                multi *= multifac;
+                long sum = 0;
+                long multi = 1;
+                long multifac = long.Parse(inNUMSYS.Text);
+                foreach (char c in input)
+                {
+                    if ((long)c - 48 >= multifac)
+                        return String.Empty;
+                    sum += ((long)c - 48) * multi;
+                    multi *= multifac;
+                    return sum.ToString();
+                }
+            } catch
+            {
+                MessageBox.Show("To high for Long-numbers");
             }
-            return sum.ToString();
+            return null;
         }
         public string restWert(long sum)
         {
